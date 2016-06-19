@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A1361921D16F37B001D82F9 /* CountryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1361911D16F37B001D82F9 /* CountryCell.m */; };
+		7A35A3091D158E6200AE9E7B /* CountryService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A35A3081D158E6200AE9E7B /* CountryService.m */; };
+		7A6438EA1D1457F100D1D3F9 /* GECountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6438E91D1457F100D1D3F9 /* GECountry.m */; };
+		7A6438EE1D145C6A00D1D3F9 /* GEGeoPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6438ED1D145C6A00D1D3F9 /* GEGeoPosition.m */; };
+		7A6439111D14603300D1D3F9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A6438F31D14603300D1D3F9 /* Info.plist */; };
+		7A6439121D14603300D1D3F9 /* MTLJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6438F61D14603300D1D3F9 /* MTLJSONAdapter.m */; };
+		7A6439131D14603300D1D3F9 /* MTLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6438F81D14603300D1D3F9 /* MTLModel.m */; };
+		7A6439141D14603300D1D3F9 /* MTLModel+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6438FA1D14603300D1D3F9 /* MTLModel+NSCoding.m */; };
+		7A6439151D14603300D1D3F9 /* MTLReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6438FC1D14603300D1D3F9 /* MTLReflection.m */; };
+		7A6439161D14603300D1D3F9 /* MTLTransformerErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6438FE1D14603300D1D3F9 /* MTLTransformerErrorHandling.m */; };
+		7A6439171D14603300D1D3F9 /* MTLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6439001D14603300D1D3F9 /* MTLValueTransformer.m */; };
+		7A6439181D14603300D1D3F9 /* NSArray+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6439021D14603300D1D3F9 /* NSArray+MTLManipulationAdditions.m */; };
+		7A6439191D14603300D1D3F9 /* NSDictionary+MTLJSONKeyPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6439041D14603300D1D3F9 /* NSDictionary+MTLJSONKeyPath.m */; };
+		7A64391A1D14603300D1D3F9 /* NSDictionary+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6439061D14603300D1D3F9 /* NSDictionary+MTLManipulationAdditions.m */; };
+		7A64391B1D14603300D1D3F9 /* NSDictionary+MTLMappingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6439081D14603300D1D3F9 /* NSDictionary+MTLMappingAdditions.m */; };
+		7A64391C1D14603300D1D3F9 /* NSError+MTLModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A64390A1D14603300D1D3F9 /* NSError+MTLModelException.m */; };
+		7A64391D1D14603300D1D3F9 /* NSObject+MTLComparisonAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A64390C1D14603300D1D3F9 /* NSObject+MTLComparisonAdditions.m */; };
+		7A64391E1D14603300D1D3F9 /* NSValueTransformer+MTLInversionAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A64390E1D14603300D1D3F9 /* NSValueTransformer+MTLInversionAdditions.m */; };
+		7A64391F1D14603300D1D3F9 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6439101D14603300D1D3F9 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */; };
+		7A64392F1D1460A700D1D3F9 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A64392B1D1460A700D1D3F9 /* EXTRuntimeExtensions.m */; };
+		7A6439301D1460A700D1D3F9 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A64392D1D1460A700D1D3F9 /* EXTScope.m */; };
 		7AA07F1A1D130E6500305D7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA07F191D130E6500305D7F /* main.m */; };
 		7AA07F1D1D130E6500305D7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA07F1C1D130E6500305D7F /* AppDelegate.m */; };
 		7AA07F201D130E6500305D7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA07F1F1D130E6500305D7F /* ViewController.m */; };
@@ -27,6 +48,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A1361901D16F37B001D82F9 /* CountryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryCell.h; sourceTree = "<group>"; };
+		7A1361911D16F37B001D82F9 /* CountryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryCell.m; sourceTree = "<group>"; };
+		7A35A3071D158E6200AE9E7B /* CountryService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CountryService.h; path = Services/CountryService.h; sourceTree = "<group>"; };
+		7A35A3081D158E6200AE9E7B /* CountryService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CountryService.m; path = Services/CountryService.m; sourceTree = "<group>"; };
+		7A6438E81D1457F100D1D3F9 /* GECountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GECountry.h; path = Models/GECountry.h; sourceTree = "<group>"; };
+		7A6438E91D1457F100D1D3F9 /* GECountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GECountry.m; path = Models/GECountry.m; sourceTree = "<group>"; };
+		7A6438EC1D145C6A00D1D3F9 /* GEGeoPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEGeoPosition.h; path = Models/GEGeoPosition.h; sourceTree = "<group>"; };
+		7A6438ED1D145C6A00D1D3F9 /* GEGeoPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEGeoPosition.m; path = Models/GEGeoPosition.m; sourceTree = "<group>"; };
+		7A6438F31D14603300D1D3F9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Libraries/Mantle/Info.plist; sourceTree = "<group>"; };
+		7A6438F41D14603300D1D3F9 /* Mantle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mantle.h; path = Libraries/Mantle/Mantle.h; sourceTree = "<group>"; };
+		7A6438F51D14603300D1D3F9 /* MTLJSONAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTLJSONAdapter.h; path = Libraries/Mantle/MTLJSONAdapter.h; sourceTree = "<group>"; };
+		7A6438F61D14603300D1D3F9 /* MTLJSONAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTLJSONAdapter.m; path = Libraries/Mantle/MTLJSONAdapter.m; sourceTree = "<group>"; };
+		7A6438F71D14603300D1D3F9 /* MTLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTLModel.h; path = Libraries/Mantle/MTLModel.h; sourceTree = "<group>"; };
+		7A6438F81D14603300D1D3F9 /* MTLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTLModel.m; path = Libraries/Mantle/MTLModel.m; sourceTree = "<group>"; };
+		7A6438F91D14603300D1D3F9 /* MTLModel+NSCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MTLModel+NSCoding.h"; path = "Libraries/Mantle/MTLModel+NSCoding.h"; sourceTree = "<group>"; };
+		7A6438FA1D14603300D1D3F9 /* MTLModel+NSCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MTLModel+NSCoding.m"; path = "Libraries/Mantle/MTLModel+NSCoding.m"; sourceTree = "<group>"; };
+		7A6438FB1D14603300D1D3F9 /* MTLReflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTLReflection.h; path = Libraries/Mantle/MTLReflection.h; sourceTree = "<group>"; };
+		7A6438FC1D14603300D1D3F9 /* MTLReflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTLReflection.m; path = Libraries/Mantle/MTLReflection.m; sourceTree = "<group>"; };
+		7A6438FD1D14603300D1D3F9 /* MTLTransformerErrorHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTLTransformerErrorHandling.h; path = Libraries/Mantle/MTLTransformerErrorHandling.h; sourceTree = "<group>"; };
+		7A6438FE1D14603300D1D3F9 /* MTLTransformerErrorHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTLTransformerErrorHandling.m; path = Libraries/Mantle/MTLTransformerErrorHandling.m; sourceTree = "<group>"; };
+		7A6438FF1D14603300D1D3F9 /* MTLValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTLValueTransformer.h; path = Libraries/Mantle/MTLValueTransformer.h; sourceTree = "<group>"; };
+		7A6439001D14603300D1D3F9 /* MTLValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTLValueTransformer.m; path = Libraries/Mantle/MTLValueTransformer.m; sourceTree = "<group>"; };
+		7A6439011D14603300D1D3F9 /* NSArray+MTLManipulationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+MTLManipulationAdditions.h"; path = "Libraries/Mantle/NSArray+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		7A6439021D14603300D1D3F9 /* NSArray+MTLManipulationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MTLManipulationAdditions.m"; path = "Libraries/Mantle/NSArray+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		7A6439031D14603300D1D3F9 /* NSDictionary+MTLJSONKeyPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLJSONKeyPath.h"; path = "Libraries/Mantle/NSDictionary+MTLJSONKeyPath.h"; sourceTree = "<group>"; };
+		7A6439041D14603300D1D3F9 /* NSDictionary+MTLJSONKeyPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLJSONKeyPath.m"; path = "Libraries/Mantle/NSDictionary+MTLJSONKeyPath.m"; sourceTree = "<group>"; };
+		7A6439051D14603300D1D3F9 /* NSDictionary+MTLManipulationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLManipulationAdditions.h"; path = "Libraries/Mantle/NSDictionary+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		7A6439061D14603300D1D3F9 /* NSDictionary+MTLManipulationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLManipulationAdditions.m"; path = "Libraries/Mantle/NSDictionary+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		7A6439071D14603300D1D3F9 /* NSDictionary+MTLMappingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLMappingAdditions.h"; path = "Libraries/Mantle/NSDictionary+MTLMappingAdditions.h"; sourceTree = "<group>"; };
+		7A6439081D14603300D1D3F9 /* NSDictionary+MTLMappingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLMappingAdditions.m"; path = "Libraries/Mantle/NSDictionary+MTLMappingAdditions.m"; sourceTree = "<group>"; };
+		7A6439091D14603300D1D3F9 /* NSError+MTLModelException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+MTLModelException.h"; path = "Libraries/Mantle/NSError+MTLModelException.h"; sourceTree = "<group>"; };
+		7A64390A1D14603300D1D3F9 /* NSError+MTLModelException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+MTLModelException.m"; path = "Libraries/Mantle/NSError+MTLModelException.m"; sourceTree = "<group>"; };
+		7A64390B1D14603300D1D3F9 /* NSObject+MTLComparisonAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+MTLComparisonAdditions.h"; path = "Libraries/Mantle/NSObject+MTLComparisonAdditions.h"; sourceTree = "<group>"; };
+		7A64390C1D14603300D1D3F9 /* NSObject+MTLComparisonAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MTLComparisonAdditions.m"; path = "Libraries/Mantle/NSObject+MTLComparisonAdditions.m"; sourceTree = "<group>"; };
+		7A64390D1D14603300D1D3F9 /* NSValueTransformer+MTLInversionAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+MTLInversionAdditions.h"; path = "Libraries/Mantle/NSValueTransformer+MTLInversionAdditions.h"; sourceTree = "<group>"; };
+		7A64390E1D14603300D1D3F9 /* NSValueTransformer+MTLInversionAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLInversionAdditions.m"; path = "Libraries/Mantle/NSValueTransformer+MTLInversionAdditions.m"; sourceTree = "<group>"; };
+		7A64390F1D14603300D1D3F9 /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.h"; path = "Libraries/Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.h"; sourceTree = "<group>"; };
+		7A6439101D14603300D1D3F9 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.m"; path = "Libraries/Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.m"; sourceTree = "<group>"; };
+		7A6439291D1460A700D1D3F9 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXTKeyPathCoding.h; path = Libraries/Mantle/extobjc/EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		7A64392A1D1460A700D1D3F9 /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXTRuntimeExtensions.h; path = Libraries/Mantle/extobjc/EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		7A64392B1D1460A700D1D3F9 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = Libraries/Mantle/extobjc/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		7A64392C1D1460A700D1D3F9 /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXTScope.h; path = Libraries/Mantle/extobjc/EXTScope.h; sourceTree = "<group>"; };
+		7A64392D1D1460A700D1D3F9 /* EXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXTScope.m; path = Libraries/Mantle/extobjc/EXTScope.m; sourceTree = "<group>"; };
+		7A64392E1D1460A700D1D3F9 /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = Libraries/Mantle/extobjc/metamacros.h; sourceTree = "<group>"; };
 		7AA07F151D130E6500305D7F /* GoEuro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoEuro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA07F191D130E6500305D7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7AA07F1B1D130E6500305D7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +125,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A35A3061D158E3100AE9E7B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7A35A3071D158E6200AE9E7B /* CountryService.h */,
+				7A35A3081D158E6200AE9E7B /* CountryService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		7A6438E71D1457D800D1D3F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A6438E81D1457F100D1D3F9 /* GECountry.h */,
+				7A6438E91D1457F100D1D3F9 /* GECountry.m */,
+				7A6438EC1D145C6A00D1D3F9 /* GEGeoPosition.h */,
+				7A6438ED1D145C6A00D1D3F9 /* GEGeoPosition.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7A6438EF1D145EEA00D1D3F9 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				7A6438F21D14601800D1D3F9 /* Mantle */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		7A6438F21D14601800D1D3F9 /* Mantle */ = {
+			isa = PBXGroup;
+			children = (
+				7A6438F31D14603300D1D3F9 /* Info.plist */,
+				7A6438F41D14603300D1D3F9 /* Mantle.h */,
+				7A6438F51D14603300D1D3F9 /* MTLJSONAdapter.h */,
+				7A6438F61D14603300D1D3F9 /* MTLJSONAdapter.m */,
+				7A6438F71D14603300D1D3F9 /* MTLModel.h */,
+				7A6438F81D14603300D1D3F9 /* MTLModel.m */,
+				7A6438F91D14603300D1D3F9 /* MTLModel+NSCoding.h */,
+				7A6438FA1D14603300D1D3F9 /* MTLModel+NSCoding.m */,
+				7A6438FB1D14603300D1D3F9 /* MTLReflection.h */,
+				7A6438FC1D14603300D1D3F9 /* MTLReflection.m */,
+				7A6438FD1D14603300D1D3F9 /* MTLTransformerErrorHandling.h */,
+				7A6438FE1D14603300D1D3F9 /* MTLTransformerErrorHandling.m */,
+				7A6438FF1D14603300D1D3F9 /* MTLValueTransformer.h */,
+				7A6439001D14603300D1D3F9 /* MTLValueTransformer.m */,
+				7A6439011D14603300D1D3F9 /* NSArray+MTLManipulationAdditions.h */,
+				7A6439021D14603300D1D3F9 /* NSArray+MTLManipulationAdditions.m */,
+				7A6439031D14603300D1D3F9 /* NSDictionary+MTLJSONKeyPath.h */,
+				7A6439041D14603300D1D3F9 /* NSDictionary+MTLJSONKeyPath.m */,
+				7A6439051D14603300D1D3F9 /* NSDictionary+MTLManipulationAdditions.h */,
+				7A6439061D14603300D1D3F9 /* NSDictionary+MTLManipulationAdditions.m */,
+				7A6439071D14603300D1D3F9 /* NSDictionary+MTLMappingAdditions.h */,
+				7A6439081D14603300D1D3F9 /* NSDictionary+MTLMappingAdditions.m */,
+				7A6439091D14603300D1D3F9 /* NSError+MTLModelException.h */,
+				7A64390A1D14603300D1D3F9 /* NSError+MTLModelException.m */,
+				7A6439291D1460A700D1D3F9 /* EXTKeyPathCoding.h */,
+				7A64392A1D1460A700D1D3F9 /* EXTRuntimeExtensions.h */,
+				7A64392B1D1460A700D1D3F9 /* EXTRuntimeExtensions.m */,
+				7A64392C1D1460A700D1D3F9 /* EXTScope.h */,
+				7A64392D1D1460A700D1D3F9 /* EXTScope.m */,
+				7A64392E1D1460A700D1D3F9 /* metamacros.h */,
+				7A64390B1D14603300D1D3F9 /* NSObject+MTLComparisonAdditions.h */,
+				7A64390C1D14603300D1D3F9 /* NSObject+MTLComparisonAdditions.m */,
+				7A64390D1D14603300D1D3F9 /* NSValueTransformer+MTLInversionAdditions.h */,
+				7A64390E1D14603300D1D3F9 /* NSValueTransformer+MTLInversionAdditions.m */,
+				7A64390F1D14603300D1D3F9 /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */,
+				7A6439101D14603300D1D3F9 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */,
+			);
+			name = Mantle;
+			sourceTree = "<group>";
+		};
 		7AA07F0C1D130E6500305D7F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +217,9 @@
 		7AA07F171D130E6500305D7F /* GoEuro */ = {
 			isa = PBXGroup;
 			children = (
+				7A35A3061D158E3100AE9E7B /* Services */,
+				7A6438EF1D145EEA00D1D3F9 /* Libraries */,
+				7A6438E71D1457D800D1D3F9 /* Models */,
 				7AA07F1B1D130E6500305D7F /* AppDelegate.h */,
 				7AA07F1C1D130E6500305D7F /* AppDelegate.m */,
 				7AA07F1E1D130E6500305D7F /* ViewController.h */,
@@ -90,6 +229,8 @@
 				7AA07F261D130E6500305D7F /* LaunchScreen.storyboard */,
 				7AA07F291D130E6500305D7F /* Info.plist */,
 				7AA07F181D130E6500305D7F /* Supporting Files */,
+				7A1361901D16F37B001D82F9 /* CountryCell.h */,
+				7A1361911D16F37B001D82F9 /* CountryCell.m */,
 			);
 			path = GoEuro;
 			sourceTree = "<group>";
@@ -191,6 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A6439111D14603300D1D3F9 /* Info.plist in Resources */,
 				7AA07F281D130E6500305D7F /* LaunchScreen.storyboard in Resources */,
 				7AA07F251D130E6500305D7F /* Assets.xcassets in Resources */,
 				7AA07F231D130E6500305D7F /* Main.storyboard in Resources */,
@@ -211,9 +353,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A6439131D14603300D1D3F9 /* MTLModel.m in Sources */,
+				7A6439181D14603300D1D3F9 /* NSArray+MTLManipulationAdditions.m in Sources */,
+				7A1361921D16F37B001D82F9 /* CountryCell.m in Sources */,
+				7A6438EE1D145C6A00D1D3F9 /* GEGeoPosition.m in Sources */,
+				7A6439301D1460A700D1D3F9 /* EXTScope.m in Sources */,
+				7A6439121D14603300D1D3F9 /* MTLJSONAdapter.m in Sources */,
+				7A6439151D14603300D1D3F9 /* MTLReflection.m in Sources */,
 				7AA07F201D130E6500305D7F /* ViewController.m in Sources */,
+				7A64392F1D1460A700D1D3F9 /* EXTRuntimeExtensions.m in Sources */,
+				7A6439141D14603300D1D3F9 /* MTLModel+NSCoding.m in Sources */,
 				7AA07F1D1D130E6500305D7F /* AppDelegate.m in Sources */,
+				7A6438EA1D1457F100D1D3F9 /* GECountry.m in Sources */,
+				7A64391C1D14603300D1D3F9 /* NSError+MTLModelException.m in Sources */,
+				7A35A3091D158E6200AE9E7B /* CountryService.m in Sources */,
+				7A64391F1D14603300D1D3F9 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */,
+				7A64391A1D14603300D1D3F9 /* NSDictionary+MTLManipulationAdditions.m in Sources */,
+				7A64391B1D14603300D1D3F9 /* NSDictionary+MTLMappingAdditions.m in Sources */,
+				7A64391E1D14603300D1D3F9 /* NSValueTransformer+MTLInversionAdditions.m in Sources */,
+				7A64391D1D14603300D1D3F9 /* NSObject+MTLComparisonAdditions.m in Sources */,
 				7AA07F1A1D130E6500305D7F /* main.m in Sources */,
+				7A6439171D14603300D1D3F9 /* MTLValueTransformer.m in Sources */,
+				7A6439161D14603300D1D3F9 /* MTLTransformerErrorHandling.m in Sources */,
+				7A6439191D14603300D1D3F9 /* NSDictionary+MTLJSONKeyPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,10 +505,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = GoEuro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = goeuro.GoEuro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoEuro/GoEuro-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -354,10 +519,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = GoEuro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = goeuro.GoEuro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoEuro/GoEuro-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -404,6 +571,7 @@
 				7AA07F391D130E6500305D7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7AA07F3A1D130E6500305D7F /* Build configuration list for PBXNativeTarget "GoEuroTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +580,7 @@
 				7AA07F3C1D130E6500305D7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
